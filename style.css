@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.main-container {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  gap: 15px; 
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
+
+.col-side {
+  flex: 1;
+}
+
+
+.col-center {
+  flex: 2;
+}
+
+
+.row-top {
+  display: flex;
+  gap: 15px;
+  flex: 1; 
+}
+
+
+.box {
+  background-color: white;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+
+.box-long {
+  flex: 2; 
+}
+
+.box-short {
+  flex: 1; 
+}
+
+.box-half {
+  flex: 1; 
+  height: 100%;
+}
+
+.box-middle {
+  flex: 1; 
+}
+
+.box-bottom {
+  flex: 1; 
+}
+
